@@ -27,7 +27,7 @@ echo [4/4] Medindo desempenho real
 cargo run --release -- benchmark
 if errorlevel 1 goto error
  echo.
-echo CONCLUIDO. Registre os tempos reais no relatorio.
+echo CONCLUIDO. Demonstracao, testes e benchmark executados com sucesso.
 pause
 exit /b 0
 :error
