@@ -1,0 +1,23 @@
+name: Rust - compilar, testar e executar
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  validar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Obter codigo
+        uses: actions/checkout@v4
+      - name: Instalar Rust estavel
+        uses: dtolnay/rust-toolchain@stable
+      - name: Verificar compilacao
+        run: cargo check --all-targets
+      - name: Rodar testes unitarios e de integracao
+        run: cargo test --all-targets
+      - name: Executar demonstracao real
+        run: cargo run -- demo
+      - name: Benchmark real (release)
+        run: cargo run --release -- benchmark
