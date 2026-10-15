@@ -101,7 +101,11 @@ Uma lista de adjacência ocupa O(V + E), contra O(V²) de uma matriz. A BFS cust
 
 ## Vídeo pitch e relatório
 
-O pitch acadêmico (máximo de quatro minutos) é um entregável complementar. O vídeo será disponibilizado após sua gravação e publicação; não se declara aqui um endereço inexistente. O relatório técnico em PDF constitui outro entregável complementar da disciplina.
+O vídeo pitch da disciplina, com duração inferior a quatro minutos, está publicado no YouTube em modo não listado (acessível a quem possui o link):
+
+**[Assistir ao vídeo pitch do ConectaStore](https://youtu.be/6VQ0yImVMlM)**
+
+O relatório técnico em PDF é o outro documento de entrega da disciplina. A data de referência da entrega acadêmica é **15/10/2026**.
 
 ## Referências
 
